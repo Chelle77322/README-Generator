@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "file-saver": "^2.0.5",
+    "inquirer": "^7.3.3",
+    "require.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.1"
+  },
+  "name": "Chelle77322.github.io",
+  "description": "GitHub Pages Personal Bio\r This is my personal portfolio project while I am studying to become a full stack developer. It will document the progress made as the course progresses",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chelle77322/Chelle77322.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chelle77322/Chelle77322.github.io/issues"
+  },
+  "homepage": "https://github.com/Chelle77322/Chelle77322.github.io#readme"
+}
