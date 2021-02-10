@@ -15,21 +15,21 @@
     "@types/file-saver": "^2.0.1"
   },
   "name": "readme-generator",
-  "description": "GitHub Pages Personal Bio\r This is my personal portfolio project while I am studying to become a full stack developer. It will document the progress made as the course progresses",
+  "description": "GitHub Pages README-Generator\r This is a little piece of code that helps pre-write a very indepth README.md file each and everytime ",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "markdown.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chelle77322/Chelle77322.github.io.git"
+    "url": "git+https://github.com/Chelle77322/README-Generator.github.io.git"
   },
   "keywords": [],
   "author": "Michelle Hall",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Chelle77322/Chelle77322.github.io/issues"
+    "url": "https://github.com/Chelle77322/README-Generator.github.io/issues"
   },
-  "homepage": "https://github.com/Chelle77322/Chelle77322.github.io#readme"
+  "homepage": "https://github.com/Chelle77322/README-Generator.github.io#readme"
 }

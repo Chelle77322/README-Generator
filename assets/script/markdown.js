@@ -2,7 +2,7 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./utils/generateReadme")
+const generateReadMe = require("/utils/generateReadMe");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //Prompt the user questions to populate the README.md
@@ -29,17 +29,40 @@ function userInput(){
             message: "How would you like your project used"
         },
         {
-            type: "list",// use checkbox
+            type: "expand",// using expanded list
             name: "license",
             message: "Chose the appropriate license for this project: ",
             choices: [
-                "Apache",
-                "Academic",
-                "GNU",
-                "ISC",
-                "MIT",
-                "Mozilla",
-                "Open"
+                {
+                    key: '1',
+                    value: 'Apache',
+                  },
+                  {
+                    key: '2',
+                    value: 'Academic',
+                  },
+                
+                  {
+                    key: '3',
+                    value: 'GNU',
+                  },
+                  {
+                    key: '4',
+                    value: 'ISC',
+                  },
+                  {
+                    key: '5',
+                    value: 'MIT',
+                  },
+                  {
+                    key: '6',
+                    value: 'Mozilla',
+                  },
+               
+                  {
+                    key: '7',
+                    value: 'Open',
+                  },
             ]
         },
         {
@@ -48,10 +71,13 @@ function userInput(){
             message: "Please list the people who contributed to this project"
         },
         {
-            type: "input",
+            type: "checkbox",
             name: "tests",
-            message: "Have you included any tests for this project?"
-        },
+            message: "Have you included any tests for this project?",
+            choices: ['Yes','No'],
+        }, 
+  
+      
         {
             type: "input",
             name: "questions",
@@ -75,9 +101,9 @@ function userInput(){
     try {
         // Ask user questions and generate responses
         const answers = await userInput();
-        const generateContent = generateReadme(answers);
+        const generateContent = generateReadMe(answers);
         // Write new README.md to dist directory
-        await writeFileAsync('./dist/README.md', generateContent);
+        await writeFileAsync('./README.md', generateContent);//
         console.log('✔️  Successfully wrote to README.md');
     }   catch(err) {
         console.log(err);
