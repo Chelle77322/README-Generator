@@ -1,11 +1,11 @@
 // Declaring the dependencies and variables
-var express = require('express');
-var app = express();
+const Downloader = require('nodejs-file-downloader');
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const generateReadMe = require("./utils/generateReadMe");
 const writeFileAsync = util.promisify(fs.writeFile);
+var https = require('https');
 
 //Prompt the user questions to populate the README.md
 function userInput(){
@@ -108,12 +108,12 @@ function userInput(){
         await writeFileAsync('./download/README.md', generateContent);//
         console.log('✔️  Successfully wrote to README.md');
 
-        const Downloader = require('nodejs-file-downloader');
+      
 
         (async () => {//Wrapping the code with an async function, just for the sake of example.
 
         const downloader = new Downloader({
-        url: './download/README.md',//If the file name already exists, a new file with the name 200MB1.zip is created.     
+        url: 'https://Chelle77322/README-Generator/download/README.md',//If the file name already exists, a new file with the name 200MB1.zip is created.     
       directory: "./downloads",//This folder will be created, if it doesn't exist.               
     })
     try {

@@ -1,9 +1,9 @@
 
-<h1 align="center">Exploring your dna genetic map </h1>
+<h1 align="center">Test</h1>
   
-![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-Open-brightgreen)<br />
 ## Description
-ℹ️ Exploring your dna genetic map through out history through archaelogical remains found.
+ℹ️ Test
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,19 +13,19 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💻 Prior to running this file please make sure that you have down a npm init and ensured the following packages have been istalled: inquirer, filesystem, utils, downloader
+💻 nppm init
 ## Usage
-📖This project can be used by others as long as they acknowledge the usage per Creative Commons License
+📖by nobody
 ## License
-![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+![badge](https://img.shields.io/badge/license-Open-brightgreen)
 <br />
-This application is covered by the Academic license. 
+This application is covered by the Open license. 
 ## Contributing
 🙋‍♀️Michelle Hall
 ## Tests
- Yes
+ No
 ## Questions
-🤔 If you have any questions please contact me directly<br />
+🤔 Google or send me a message<br />
 <br />
 🖐️ Find me on GitHub: [Chelle77322](https://github.com/Chelle77322)<br />
 <br />
