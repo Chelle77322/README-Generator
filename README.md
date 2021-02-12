@@ -37,25 +37,25 @@ npm install -downloader
 run node markdown.js
 
 # Video
-![Video of application in progress]('./assets/files/README-Generator.mp4')
+![Video of application in progress](./assets/files/README-Generator.mp4)
 
 
 # Screenshots
-![Image of README download]('/assets/files/README_OUTPUT.jpg')
+![Image of README download](./assets/files/README_OUTPUT.jpg)
 
 
 # Credits
 "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+
 "https://www.nodebeginner.org/"
+
 "https://www.npmjs.com/package/nodejs-file-downloader"
 
 
 # Future Developments
 Current future developments include: Getting the file download to work as a *md (markdown file) not a html page
 
-Authors
-Back-end coding and development: Michelle Hall
-Front-end design and development: Michelle Hall
+
 
 
 
