@@ -1,9 +1,9 @@
 
-<h1 align="center">TEST</h1>
+<h1 align="center">README Generator</h1>
   
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
-ℹ️ TEST
+ℹ️ A command line application that allows the user to create and download a professional README file to use in future Git Hub Repositories
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -13,19 +13,19 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💻 TEST OUT FIRST WITH node markdown.js
+💻 Please ensure that you run npm init and the following packages are installed: inquirer, file system (fs), utils, downloader(file-downloader)
 ## Usage
-📖By people who have a great sense of humor
+📖This project can be freely used under the Creative Commons License CC-BY-SA http://creativecommons.org/licenses/by-sa/4.0/legalcode
 ## License
-![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
-This application is covered by the Apache license. 
+This application is covered by the MIT license. 
 ## Contributing
-🙋‍♀️Michelle Hall , Coffee, Chocolate and a little bit of luck
+🙋‍♀️The following people have contributed: Michelle Hall
 ## Tests
  No
 ## Questions
-🤔 If you have any questions regarding this project then make contact via Git Hub or email<br />
+🤔 For any questions regarding this project or future updates please make contact on either Git Hub or through email<br />
 <br />
 🖐️ Find me on GitHub: [Chelle77322](https://github.com/Chelle77322)<br />
 <br />
