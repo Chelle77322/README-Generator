@@ -41,7 +41,7 @@ run node markdown.js
 
 
 # Screenshots
-![Image of README download]('./assets/files/README_OUTPUT.jpg')
+![Image of README download]('/assets/files/README_OUTPUT.jpg')
 
 
 # Credits
