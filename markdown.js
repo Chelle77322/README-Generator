@@ -5,7 +5,7 @@ const util = require("util");
 const inquirer = require("inquirer");
 const generateReadMe = require("./utils/generateReadMe");
 const writeFileAsync = util.promisify(fs.writeFile);
-var https = require('https');
+
 
 //Prompt the user questions to populate the README.md
 function userInput(){
@@ -70,7 +70,7 @@ function userInput(){
         {
             type: "input",
             name: "contributing",
-            message: "Please list the people who contributed to this project"
+            message: "Please list the people who have contributed to this project"
         },
         {
             type: "checkbox",
@@ -97,24 +97,29 @@ function userInput(){
         }
     ]);
 } 
-
+    
 // Async function using util.promisify 
   async function init() {
     try {
         // Ask user questions and generate responses
         const answers = await userInput();
         const generateContent = generateReadMe(answers);
-        // Write new README.md to dist directory
+        
+        // Write new README.md to the download directory
         await writeFileAsync('./download/README.md', generateContent);//
         console.log('✔️  Successfully wrote to README.md');
+        }   
+    catch(err) {
+        console.log(err);
+    }
+  }
+ 
 
-      
+(async () => {//Wrapping the code with an async function, just for the sake of example.
 
-        (async () => {//Wrapping the code with an async function, just for the sake of example.
-
-        const downloader = new Downloader({
-        url: 'https://Chelle77322/README-Generator/download/README.md',//If the file name already exists, a new file with the name 200MB1.zip is created.     
-      directory: "./downloads",//This folder will be created, if it doesn't exist.               
+    const downloader = new Downloader({
+      url: 'https://github.com/Chelle77322/README-Generator/download/README.md',   
+                 
     })
     try {
       await downloader.download();//Downloader.download() returns a promise.
@@ -127,11 +132,12 @@ function userInput(){
 
 
 })();    
-        
-
-    }   catch(err) {
-        console.log(err);
-    }
-  }
-  
+  const downloader = new Downloader({     
+    url: './Chelle77322/README-Generator/download/',     
+    file: "../README.md",  
+    cloneFiles:false//This will cause the downloader to re-write an existing file.   
+}) 
+    
+ 
   init();  
+  
