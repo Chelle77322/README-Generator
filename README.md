@@ -37,7 +37,8 @@ npm install -downloader
 run node markdown.js
 
 # Video
-![Video of application in progress](./assets/files/README-Generator.mp4)
+![Video of application in progress](./assets/files/mini_readme.gif)
+Full Video can be downloaded here (./assets/files/README_video.webm)
 
 
 # Screenshots
