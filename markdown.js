@@ -108,33 +108,32 @@ function userInput(){
         // Write new README.md to the download directory
         await writeFileAsync('./download/README.md', generateContent);//
         console.log('✔️  Successfully wrote to README.md');
+        (async () => {//Wrapping the code with an async function, just for the sake of example.
+  
+          const downloader = new Downloader({
+            url: 'https://github.com/Chelle77322/README-Generator/blob/Trunk/download/README.md'     
+                         
+          })
+          try {
+            await downloader.download();//Downloader.download() returns a promise.
+      
+            console.log('All done');
+          } catch (error) {//IMPORTANT: Handle a possible error. An error is thrown in case of network errors, or status codes of 400 and above.
+            //Note that if the maxAttempts is set to higher than 1, the error is thrown only if all attempts fail.
+            console.log('Download failed',error)
+          }
+      
+      
+      })();
         }   
     catch(err) {
         console.log(err);
     }
   }
- 
-
-(async () => {//Wrapping the code with an async function, just for the sake of example.
-
-    const downloader = new Downloader({
-      url: 'https://github.com/Chelle77322/README-Generator/download/README.md',   
-                 
-    })
-    try {
-      await downloader.download();//Downloader.download() returns a promise.
-
-      console.log('All done');
-    } catch (error) {//IMPORTANT: Handle a possible error. An error is thrown in case of network errors, or status codes of 400 and above.
-      //Note that if the maxAttempts is set to higher than 1, the error is thrown only if all attempts fail.
-      console.log('Download failed',error)
-    }
-
-
-})();    
+  
   const downloader = new Downloader({     
-    url: './Chelle77322/README-Generator/download/',     
-    file: "../README.md",  
+    url: 'https://github.com/Chelle77322/README-Generator/download/',     
+    
     cloneFiles:false//This will cause the downloader to re-write an existing file.   
 }) 
     

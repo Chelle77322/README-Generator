@@ -1,7 +1,7 @@
 
-<h1 align="center">node TEST</h1>
+<h1 align="center">TEST</h1>
   
-![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
 ## Description
 ℹ️ TEST
 ## Table of Contents
@@ -13,19 +13,19 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💻 TEST
+💻 TEST OUT FIRST WITH node markdown.js
 ## Usage
-📖NO
+📖By people who have a great sense of humor
 ## License
-![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)
 <br />
-This application is covered by the Academic license. 
+This application is covered by the Apache license. 
 ## Contributing
-🙋‍♀️Michelle Hall
+🙋‍♀️Michelle Hall , Coffee, Chocolate and a little bit of luck
 ## Tests
  No
 ## Questions
-🤔 NOTHING PLEASE<br />
+🤔 If you have any questions regarding this project then make contact via Git Hub or email<br />
 <br />
 🖐️ Find me on GitHub: [Chelle77322](https://github.com/Chelle77322)<br />
 <br />
