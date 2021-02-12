@@ -38,7 +38,7 @@ run node markdown.js
 
 # Video
 ![Video of application in progress](./assets/files/mini_readme.gif)
-Full Video can be downloaded here (./assets/files/README_video.webm)
+Full Video can be downloaded here <a href = "https://github.com/Chelle77322/README-Generator/blob/Trunk/assets/files/README-Generator.mp4">README Video</a>
 
 
 # Screenshots
