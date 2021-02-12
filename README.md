@@ -8,7 +8,7 @@ A command line application that accepts user input to generate a professional lo
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/Chelle77322/README-Generator" />
 
-    </a>
+    
 </p>
   
 <p align="center">
