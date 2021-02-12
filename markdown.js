@@ -125,6 +125,11 @@ function userInput(){
       
       
       })();
+      const downloader = new Downloader({     
+        url: 'https://github.com/Chelle77322/README-Generator/blob/Trunk/download/README.md',     
+        directory: "./download/", 
+        fileName:'README.html'//This will be the file name.        
+    }) 
         }   
     catch(err) {
         console.log(err);
@@ -134,7 +139,7 @@ function userInput(){
   const downloader = new Downloader({     
     url: 'https://github.com/Chelle77322/README-Generator/download/',     
     
-    cloneFiles:false//This will cause the downloader to re-write an existing file.   
+    cloneFiles:true//This will cause the downloader to re-write an existing file.   
 }) 
     
  
